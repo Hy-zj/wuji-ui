@@ -1,0 +1,44 @@
+{
+  "name": "wuji-ui",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "wuji-ui core",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "Huangyue",
+  "contributors": [],
+  "main": "src/main.js",
+  "module": "src/main.js",
+  "publishConfig": {
+    "main": "dist/wuji-ui.cjs.js",
+    "module": "dist/wuji-ui.es.js",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "beta",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Hy-zj/wuji-ui-pkg.git"
+  },
+  "bugs": {
+    "url": "  https://github.com/Hy-zj/wuji-ui-pkg/issues"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "wuji-ui"
+  ],
+  "dependencies": {
+    "@wuji-ui/utils": "workspace:^",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
